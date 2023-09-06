@@ -114,6 +114,10 @@ body {
     margin-bottom: 30px;
 }
 
+.feature {
+    margin-bottom: 243px;
+}
+
 .grid {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
@@ -180,7 +184,6 @@ body {
     line-height: 125%;
     /* 31.25px */
     width: 302px;
-    height: 62px;
     opacity: 0.7;
     margin-bottom: 30px;
 }
@@ -204,6 +207,118 @@ body {
 
 .big-text {
     width: 694px;
-    height: 130px;
     margin-bottom: 144px;
+}
+
+.about {
+    margin-bottom: 221px;
+}
+
+.about-block {
+    width: 548px;
+    height: 464px;
+}
+
+.about-title {
+    width: 548px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    /* 52px */
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.about-text {
+    width: 460px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    /* 25.6px */
+    opacity: 0.7;
+}
+
+.footer-container {
+    width: 1146px;
+    margin: 48px auto 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-block {
+    width: 362px;
+}
+
+.footer-title {
+    width: 228px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 33px;
+}
+
+.footer-information {
+    display: flex;
+    width: 362px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.foot-info-line {
+    width: 261px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+}
+
+.footer-info-text {
+    margin-left: 10px;
+}
+
+.footer-about-left {
+    width: 261px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+.footer-about-right {
+    display: flex;
+    width: 362px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.footer-aboute-right-text {
+    width: 261px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-right-ico {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    opacity: 0.6;
 }
