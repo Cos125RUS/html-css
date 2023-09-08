@@ -15,11 +15,11 @@ button {
 }
 
 .header {
-    margin: 40px 375px 84px;
+    margin: 40px auto 84px;
     width: 1170px;
     display: flex;
     gap: 500px;
-
+    justify-content: center;
 }
 
 .header__menu {
@@ -41,11 +41,10 @@ button {
     padding-bottom: 162px;
     display: flex;
     gap: 41px;
+    justify-content: center;
 }
 
 .content__info {
-    margin-bottom: 17px;
-    margin-left: 373px;
     width: 522px;
 }
 
@@ -59,7 +58,7 @@ button {
     font-weight: 400;
 }
 
-.frame__start {
+.frame__button {
     width: 140px;
     height: 50px;
     border-radius: 50px;
@@ -70,7 +69,7 @@ button {
     align-items: center;
 }
 
-.start__button {
+.orange__button {
     color: #FFF;
     width: 140px;
     height: 50px;
@@ -96,8 +95,9 @@ button {
     margin-bottom: 37px;
 }
 
-.footer {
-    margin: 97px 345px 96px 375px;
+.brand__box {
+    width: 1200px;
+    margin: 97px auto 96px;
     display: flex;
     justify-content: space-between;
     gap: 48px;
