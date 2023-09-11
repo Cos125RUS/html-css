@@ -146,6 +146,12 @@ button {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__head {
+    width: 340px;
 }
 
 .products__title {
@@ -209,8 +215,6 @@ button {
 }
 
 .products__button {
-    display: block;
-    margin: auto;
     width: 212px;
     height: 48px;
     border: 1px solid #FF6A6A;
