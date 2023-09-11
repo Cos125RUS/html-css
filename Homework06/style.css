@@ -143,6 +143,9 @@ button {
 /* #region Products */
 .products {
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 .products__title {
@@ -154,7 +157,6 @@ button {
 }
 
 .products__text {
-    padding-bottom: 48px;
     color: #9F9F9F;
     font-size: 14px;
     font-weight: 400;
@@ -162,7 +164,6 @@ button {
 }
 
 .products__box {
-    padding-bottom: 48px;
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     justify-items: center;
