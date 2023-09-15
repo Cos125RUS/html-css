@@ -205,8 +205,8 @@ a {
 
 .about-block {
     width: 548px;
-    height: 464px;
     justify-content: center;
+    padding: 14px 0;
 }
 
 .about-title {
@@ -302,4 +302,85 @@ a {
     align-items: flex-start;
     gap: 24px;
     opacity: 0.6;
+}
+
+@media (max-width: 849px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .top {
+        padding-left: 42px;
+        padding-right: 40px;
+    }
+
+    .top-left {
+        max-width: 604px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 48px;
+    }
+
+    .logos{
+        padding-left: 41px;
+        padding-right: 40px;
+        margin-bottom: 277px;
+    }
+
+    .logo-container {
+        justify-content: center;
+        gap: 32px;
+        padding: 0 15%;
+    }
+
+    .learning {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .learning-info {
+        max-width: 484px;
+    }
+
+    .feature {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .group-blocks {
+        gap: 32px;
+        justify-content: center;
+        /* flex-direction: column; */
+        padding: 0 15%;
+    }
+
+    .block-bottom {
+        display: none;
+    }
+
+    .about {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .about-container {
+        gap: 64px;
+        justify-content: center;
+    }
+
+    .about-block {
+        padding: 0;
+    }
+
+    .footer-container {
+        padding-left: 40px;
+        padding-right: 40px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
