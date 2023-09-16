@@ -305,7 +305,7 @@ a {
     opacity: 0.6;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1145px) {
     .container {
         max-width: 768px;
     }
@@ -366,7 +366,7 @@ a {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 766px) {
     .container {
         max-width: 375px;
     }
