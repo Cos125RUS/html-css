@@ -244,7 +244,7 @@ a {
 }
 
 .footer-block {
-    max-width: 362px;
+    min-width: 360px;
 }
 
 .footer-title {
