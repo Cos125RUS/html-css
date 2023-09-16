@@ -40,7 +40,14 @@ button {
 
 .header__logo {
     display: flex;
+    align-items: end;
     gap: 41px;
+}
+
+.header__button {
+    width: 159px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* #endregion Nav */
