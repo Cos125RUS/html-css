@@ -45,6 +45,7 @@ a {
 /* #region banner */
 .banner {
     background-color: #F1E4E6;
+    margin-bottom: 65px;
 }
 
 .banner__content {
@@ -103,7 +104,54 @@ a {
 /* #endregion banner */
 
 /* #region offer */
+.offer__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.offer__card {
+    width: 360px;
+    height: 260px;
+    display: flex;
+    justify-content: center;align-items: center;
+    position: relative;
+}
+
+.offer__big {
+    width: 1140px;
+    height: 180px;
+}
+
+.offer__img {
+    position: absolute;
+}
+
+.offer__rectangle {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 22, 22, 0.70);
+    position: absolute;
+}
+
+.offer__text {
+    position: absolute;
+}
+
+.offer__text h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.offer__text b {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+}
 
 /* #endregion offer */
 
-
+/*  */
