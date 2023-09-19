@@ -199,6 +199,39 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.product__view>img, .product__view>div {
+    position: absolute;
+}
+
+.product__rectangle, .product__button {
+    display: none;
+}
+
+.product__view:hover {
+    .product__rectangle {
+        display: inline;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(58, 56, 56, 0.86);
+    }
+
+    .product__button {
+        border: 1px solid #fff;
+        min-width: 139px;
+        min-height: 44px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.product__button h5 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .product__info {
