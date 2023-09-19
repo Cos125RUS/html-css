@@ -109,13 +109,15 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin-bottom: 96px;
 }
 
 .offer__card {
     width: 360px;
     height: 260px;
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -154,4 +156,77 @@ a {
 
 /* #endregion offer */
 
-/*  */
+/* #region product */
+.product__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 60px;
+}
+
+.product__head {
+    text-align: center;
+}
+
+.product__title {
+    margin-bottom: 6px;
+    color: #222;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.product__subtitle {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product__items {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product__item {
+    width: 360px;
+}
+
+.product__view {
+    background-color: #F7E4E2;
+    width: 360px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__info {
+    padding: 14px 16px;
+}
+
+.product__info h5, .product__info p {
+    margin-bottom: 16px;
+}
+
+.product__info h5 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product__info p {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 315px;
+}
+
+.product__info h4 {
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* #endregion product */
