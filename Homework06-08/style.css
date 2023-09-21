@@ -412,23 +412,27 @@ summary {
 .advantage {
     min-height: 341px;
     display: flex;
+}
+
+.advantage__link {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.advantage img {
+.advantage__link img {
     margin-bottom: 19px;
 }
 
-.advantage h3 {
+.advantage__link h3 {
     color: #FBFBFB;
     font-size: 19.96px;
     font-weight: 400;
     margin-bottom: 16px;
 }
 
-.advantage p {
+.advantage__link p {
     color: #FBFBFB;
     text-align: center;
     font-size: 13.972px;
@@ -465,6 +469,7 @@ summary {
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     z-index: 3;
 }
 
