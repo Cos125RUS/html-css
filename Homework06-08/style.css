@@ -219,13 +219,6 @@ summary {
 /* #endregion banner */
 
 /* #region offer */
-.offer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 .offer__content {
     display: flex;
     justify-content: center;
@@ -235,15 +228,10 @@ summary {
 }
 
 .offer__card {
-    height: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-.offer__big {
-    height: 180px;
 }
 
 .offer__rectangle, .offer__text {
@@ -407,12 +395,13 @@ summary {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    align-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    min-height: 341px;
 }
 
 .advantage {
-    min-height: 341px;
     display: flex;
 }
 
@@ -453,13 +442,6 @@ summary {
     background: url("img/contact/background.jpg") bottom center no-repeat;
     background-size: cover;
 }
-
-/* 
-.background__pick {
-    height: 448px;
-    position: absolute;
-    top: 0;
-} */
 
 .background__fill {
     position: absolute;
@@ -611,11 +593,11 @@ summary {
 
 /* #endregion desktop */
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
 
     .center {
-        padding-left: calc(49vw - 384px);
-        padding-right: calc(49vw - 384px);
+        padding-left: calc(49vw - 368px);
+        padding-right: calc(49vw - 368px);
     }
 
     .header {
@@ -623,7 +605,7 @@ summary {
     }
 
     .menu__left {
-        padding-left: 32px;
+        padding-left: 16px;
     }
 
     .menu__right {
@@ -636,6 +618,10 @@ summary {
 
     .banner__text__box {
         padding-left: 39px;
+    }
+
+    .banner__text {
+        min-width: 283px;
     }
 
     .banner__text b {
@@ -651,19 +637,50 @@ summary {
         margin-bottom: 109px;
     }
 
-    .offer__card {
-        height: 167px;
-    }
-
-    .offer__big {
-        height: 116px;
-    }
-
     .offer__card>img {
-        height: 100%;
+        max-height: 167px;
+    }
+
+    .offer__big>img {
+        max-height: 116px;
+    }
+
+    .product__content {
+        gap: 0;
+        margin-bottom: 64px;
+    }
+
+    .product__head {
+        margin-bottom: 73px;
+    }
+
+    .product__items {
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+        gap: 49px;
+        padding-top: 48px;
+        padding-bottom: 64px;
     }
 
     .contact__content {
         justify-content: center;
+        gap: 64px;
+        padding-top: 48px;
+        padding-bottom: 140px;
     }
+
+    .footer__left {
+        padding-left: 16px;
+    }
+
+    .footer__right {
+        padding-right: 16px;
+    }
+
 }
+
