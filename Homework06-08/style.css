@@ -790,6 +790,10 @@ summary {
         padding-bottom: 109px;
     }
 
+    .subscribe__text {
+        min-width: 341px;
+    }
+
     .footer {
         min-height: 143px;
         align-items: end;
@@ -809,3 +813,4 @@ summary {
         margin-bottom: 40px;
     }
 }
+
