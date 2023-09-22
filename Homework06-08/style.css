@@ -294,6 +294,8 @@ summary {
 
 .product__item {
     width: 360px;
+    display: flex;
+    flex-direction: column;
 }
 
 .product__view {
