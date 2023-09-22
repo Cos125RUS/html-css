@@ -54,6 +54,16 @@ a {
     font-family: Lato;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 .center {
     padding-left: calc(49vw - 570px);
     padding-right: calc(49vw - 570px);
