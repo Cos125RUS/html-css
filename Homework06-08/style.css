@@ -691,7 +691,7 @@ summary {
         padding-top: 48px;
         padding-bottom: 140px;
     }
-    
+
     .subscribe {
         gap: 27px;
     }
@@ -715,7 +715,7 @@ summary {
     .menu__right>a {
         display: none;
     }
-    
+
     .dropdown__menu {
         right: 0;
     }
@@ -723,20 +723,20 @@ summary {
     .dropdown__menu>h5 {
         margin-bottom: 15px;
     }
-    
+
     .catalog__categories {
         gap: 12px;
     }
-    
+
     .catalog__name {
         margin-bottom: 8px;
     }
-    
+
     .catalog__list {
         list-style: none;
         gap: 5px;
     }
-    
+
     .banner__content {
         justify-content: start;
         min-height: 363px;
@@ -833,3 +833,95 @@ summary {
     }
 }
 
+@media (max-width: 374px) {
+    .center {
+        padding-left: calc(49vw - 150px);
+        padding-right: calc(49vw - 150px);
+    }
+
+    .banner {
+        margin-bottom: 30px;
+    }
+
+    .banner__content {
+        min-height: 264px;
+    }
+
+    .banner__text__box {
+        gap: 14px;
+        padding-left: 36px;
+    }
+
+    .offer__content {
+        gap: 10px;
+        margin-bottom: 36px;
+    }
+
+    .offer__card>img {
+        max-width: 96vw;
+    }
+
+    .offer__big>img {
+        max-width: 96vw;
+        object-fit: cover;
+    }
+
+    .product__items {
+        display: none;
+    }
+
+    .product__content {
+        margin-bottom: 50px;
+    }
+
+    .product__head {
+        margin-bottom: 36px;
+    }
+
+    .product__title {
+        font-size: 24px;
+    }
+
+    .product__subtitle {
+        font-size: 12px;
+    }
+
+    .product__items {
+        margin-bottom: 24px;
+    }
+
+    .advantages {
+        padding-bottom: 56px;
+    }
+
+    .contact__content {
+        padding-bottom: 48px;
+    }
+
+    .manager__items {
+        width: 96vw;
+    }
+
+    .subscribe__text {
+        min-width: 96vw;
+    }
+
+    .subscribe__entry {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .subscribe__input {
+        padding-right: 22px;
+        border-top-right-radius: 22px;
+        border-bottom-right-radius: 22px;
+    }
+
+    .subscribe__button {
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+    }
+
+}
