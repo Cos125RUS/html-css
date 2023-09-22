@@ -522,6 +522,10 @@ summary {
     border-bottom-left-radius: 22px;
 }
 
+.subscribe__input:focus {
+    outline: none;
+}
+
 .subscribe__button {
     width: 100px;
     height: 49px;
@@ -540,7 +544,7 @@ summary {
 }
 
 .subscribe__button:active {
-    color: #222224;
+    background-image: linear-gradient(#c61e40, #F16D7F);
 }
 
 /* #endregion contact */
@@ -680,6 +684,10 @@ summary {
         padding-top: 48px;
         padding-bottom: 140px;
     }
+    
+    .subscribe {
+        gap: 27px;
+    }
 
     .footer__left {
         padding-left: 16px;
@@ -788,6 +796,10 @@ summary {
     .contact__content {
         gap: 59px;
         padding-bottom: 109px;
+    }
+
+    .subscribe {
+        gap: 22px;
     }
 
     .subscribe__text {
